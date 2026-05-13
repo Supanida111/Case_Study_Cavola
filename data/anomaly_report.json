@@ -1,0 +1,35 @@
+{
+  "method_iforest": {
+    "contamination": 0.05,
+    "n_estimators": 100,
+    "count": 7
+  },
+  "method_lof": {
+    "contamination": 0.05,
+    "n_neighbors": 10,
+    "count": 7
+  },
+  "n_iforest": 7,
+  "n_lof": 7,
+  "n_consensus": 4,
+  "consensus_indices": [
+    12,
+    21,
+    45,
+    56
+  ],
+  "consensus_profile": {
+    "brand_correct": 2.75,
+    "brand_decoy_hit": 0.75,
+    "products_recognized_count": 7.25,
+    "products_tried_count": 6.75,
+    "tagline_alignment": 0.5,
+    "tagline_known": 0.75,
+    "score_ingredient": 4.0,
+    "score_taste": 3.75,
+    "score_health": 4.5,
+    "ebisen_familiarity": 2.75,
+    "age": 2.5
+  },
+  "policy": "FLAG only — sample size 124 too small to remove"
+}

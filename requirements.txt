@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+joblib
+plotly
+dash
+dash-bootstrap-components

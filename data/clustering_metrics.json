@@ -1,0 +1,155 @@
+{
+  "k_evaluation": [
+    {
+      "k": 2,
+      "inertia": 1148.0338963203114,
+      "silhouette": 0.14430739048896182,
+      "davies_bouldin": 2.1642527632817155,
+      "calinski_harabasz": 22.950423966898878,
+      "hier_silhouette": 0.19524715949228535,
+      "hier_davies_bouldin": 2.1178557485620106
+    },
+    {
+      "k": 3,
+      "inertia": 1018.6073034478067,
+      "silhouette": 0.15820332239005508,
+      "davies_bouldin": 1.9640182998429492,
+      "calinski_harabasz": 20.5145379094353,
+      "hier_silhouette": 0.1893615802112319,
+      "hier_davies_bouldin": 1.5477870141607433
+    },
+    {
+      "k": 4,
+      "inertia": 877.9300922842831,
+      "silhouette": 0.17318976047583146,
+      "davies_bouldin": 1.610214788388941,
+      "calinski_harabasz": 22.146178243008546,
+      "hier_silhouette": 0.1675726213817634,
+      "hier_davies_bouldin": 1.637514561880868
+    },
+    {
+      "k": 5,
+      "inertia": 808.0496258936912,
+      "silhouette": 0.170424121791127,
+      "davies_bouldin": 1.5639667526351964,
+      "calinski_harabasz": 20.468450327379614,
+      "hier_silhouette": 0.12685104009569553,
+      "hier_davies_bouldin": 1.7958824727003833
+    },
+    {
+      "k": 6,
+      "inertia": 753.326312841707,
+      "silhouette": 0.14565028560631846,
+      "davies_bouldin": 1.6555953136908321,
+      "calinski_harabasz": 19.131017689493635,
+      "hier_silhouette": 0.13894218569378006,
+      "hier_davies_bouldin": 1.7129970034301045
+    },
+    {
+      "k": 7,
+      "inertia": 702.8280528997236,
+      "silhouette": 0.1638009246670762,
+      "davies_bouldin": 1.6891699705622256,
+      "calinski_harabasz": 18.344249230323317,
+      "hier_silhouette": 0.14342758781744377,
+      "hier_davies_bouldin": 1.7565459493853275
+    },
+    {
+      "k": 8,
+      "inertia": 663.9799350993493,
+      "silhouette": 0.14325095833874701,
+      "davies_bouldin": 1.6230429552441727,
+      "calinski_harabasz": 17.470908217026473,
+      "hier_silhouette": 0.14649010822521813,
+      "hier_davies_bouldin": 1.6155155722006416
+    },
+    {
+      "k": 9,
+      "inertia": 644.9176221343196,
+      "silhouette": 0.1339272116550693,
+      "davies_bouldin": 1.5701999524463994,
+      "calinski_harabasz": 16.028107818809563,
+      "hier_silhouette": 0.15402912297692492,
+      "hier_davies_bouldin": 1.5457541359717122
+    },
+    {
+      "k": 10,
+      "inertia": 603.1804493144189,
+      "silhouette": 0.14184369320512444,
+      "davies_bouldin": 1.5765259535005005,
+      "calinski_harabasz": 15.977055710228882,
+      "hier_silhouette": 0.15239812954901583,
+      "hier_davies_bouldin": 1.4863577647051032
+    }
+  ],
+  "selected_k": 4,
+  "kmeans_silhouette": 0.17318976047583146,
+  "kmeans_db": 1.610214788388941,
+  "kmeans_ch": 22.146178243008546,
+  "hier_silhouette": 0.1675726213817634,
+  "hier_db": 1.637514561880868,
+  "pca_explained_variance": [
+    0.23158409171963812,
+    0.1384086139460974
+  ],
+  "persona_map": {
+    "0": "Partial Connect",
+    "1": "Aware but Lost",
+    "2": "Disconnected",
+    "3": "Brand Advocate"
+  },
+  "centroids": {
+    "Partial Connect": {
+      "brand_correct": 5.75,
+      "brand_decoy_hit": 2.928571428571429,
+      "products_recognized_count": 6.25,
+      "products_tried_count": 5.75,
+      "tagline_alignment": 0.40476190476190477,
+      "tagline_known": 0.0,
+      "score_ingredient": 3.857142857142857,
+      "score_taste": 4.678571428571429,
+      "score_health": 3.7142857142857144,
+      "ebisen_familiarity": 2.1785714285714284,
+      "age": 2.178571428571429
+    },
+    "Aware but Lost": {
+      "brand_correct": 1.8166666666666667,
+      "brand_decoy_hit": 0.4166666666666673,
+      "products_recognized_count": 6.55,
+      "products_tried_count": 5.95,
+      "tagline_alignment": 0.5277777777777777,
+      "tagline_known": 2.7755575615628914e-17,
+      "score_ingredient": 3.783333333333333,
+      "score_taste": 4.95,
+      "score_health": 3.466666666666667,
+      "ebisen_familiarity": 2.3166666666666664,
+      "age": 2.6333333333333333
+    },
+    "Disconnected": {
+      "brand_correct": 0.6969696969696964,
+      "brand_decoy_hit": 0.3636363636363634,
+      "products_recognized_count": 3.454545454545455,
+      "products_tried_count": 3.6969696969696972,
+      "tagline_alignment": 0.35353535353535354,
+      "tagline_known": 3.469446951953614e-18,
+      "score_ingredient": 4.212121212121212,
+      "score_taste": 4.515151515151516,
+      "score_health": 3.909090909090909,
+      "ebisen_familiarity": 1.5454545454545452,
+      "age": 3.9696969696969697
+    },
+    "Brand Advocate": {
+      "brand_correct": 3.3333333333333335,
+      "brand_decoy_hit": 1.0,
+      "products_recognized_count": 9.333333333333332,
+      "products_tried_count": 8.666666666666666,
+      "tagline_alignment": 0.4444444444444444,
+      "tagline_known": 1.0,
+      "score_ingredient": 4.333333333333333,
+      "score_taste": 4.333333333333333,
+      "score_health": 4.333333333333333,
+      "ebisen_familiarity": 2.6666666666666665,
+      "age": 2.6666666666666665
+    }
+  }
+}

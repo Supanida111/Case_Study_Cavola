@@ -1,0 +1,204 @@
+{
+  "numeric": {
+    "brand_correct": {
+      "count": 124,
+      "mean": 2.443548387096774,
+      "std": 2.4035962871207786,
+      "min": 0.0,
+      "q25": 0.0,
+      "median": 2.0,
+      "q75": 4.0,
+      "max": 7.0,
+      "skew": 0.8203811951951652
+    },
+    "brand_decoy_hit": {
+      "count": 124,
+      "mean": 0.9838709677419355,
+      "std": 1.2096083554023667,
+      "min": 0.0,
+      "q25": 0.0,
+      "median": 0.0,
+      "q75": 2.0,
+      "max": 3.0,
+      "skew": 0.7876979680951112
+    },
+    "brand_understanding": {
+      "count": 124,
+      "mean": 5.459677419354839,
+      "std": 1.831961912251795,
+      "min": 1.0,
+      "q25": 4.0,
+      "median": 5.0,
+      "q75": 7.0,
+      "max": 11.0,
+      "skew": 0.27914519512730857
+    },
+    "products_recognized_count": {
+      "count": 124,
+      "mean": 5.725806451612903,
+      "std": 2.1350299770459586,
+      "min": 1.0,
+      "q25": 5.0,
+      "median": 6.0,
+      "q75": 7.0,
+      "max": 11.0,
+      "skew": -0.4043635230312477
+    },
+    "products_tried_count": {
+      "count": 124,
+      "mean": 5.370967741935484,
+      "std": 1.8847601988266407,
+      "min": 1.0,
+      "q25": 4.0,
+      "median": 5.0,
+      "q75": 7.0,
+      "max": 11.0,
+      "skew": 0.01901014586002783
+    },
+    "tagline_known": {
+      "count": 124,
+      "mean": 0.024193548387096774,
+      "std": 0.15427299619963394,
+      "min": 0.0,
+      "q25": 0.0,
+      "median": 0.0,
+      "q75": 0.0,
+      "max": 1.0,
+      "skew": 6.269490698829078
+    },
+    "tagline_rating": {
+      "count": 124,
+      "mean": 2.9919354838709675,
+      "std": 1.1297597970612434,
+      "min": 1.0,
+      "q25": 2.0,
+      "median": 3.0,
+      "q75": 4.0,
+      "max": 5.0,
+      "skew": -0.19026516316689557
+    },
+    "tagline_alignment": {
+      "count": 124,
+      "mean": 0.4516129032258064,
+      "std": 0.2981228486016294,
+      "min": 0.0,
+      "q25": 0.3333333333333333,
+      "median": 0.3333333333333333,
+      "q75": 0.6666666666666666,
+      "max": 1.0,
+      "skew": -0.07247715151093241
+    },
+    "ebisen_familiarity": {
+      "count": 124,
+      "mean": 2.088709677419355,
+      "std": 0.9107496847093985,
+      "min": 1.0,
+      "q25": 1.0,
+      "median": 2.0,
+      "q75": 3.0,
+      "max": 3.0,
+      "skew": -0.17762192025037807
+    },
+    "age": {
+      "count": 124,
+      "mean": 2.8870967741935485,
+      "std": 1.1839693292786078,
+      "min": 1.0,
+      "q25": 2.0,
+      "median": 3.0,
+      "q75": 3.25,
+      "max": 5.0,
+      "skew": 0.550562126126075
+    },
+    "score_ingredient": {
+      "count": 124,
+      "mean": 3.9274193548387095,
+      "std": 1.0054597872055278,
+      "min": 1.0,
+      "q25": 3.0,
+      "median": 4.0,
+      "q75": 5.0,
+      "max": 5.0,
+      "skew": -0.876984287734729
+    },
+    "score_taste": {
+      "count": 124,
+      "mean": 4.758064516129032,
+      "std": 0.5314647307502836,
+      "min": 2.0,
+      "q25": 5.0,
+      "median": 5.0,
+      "q75": 5.0,
+      "max": 5.0,
+      "skew": -2.4786601054984594
+    },
+    "score_variety": {
+      "count": 124,
+      "mean": 3.5,
+      "std": 1.0932163332202425,
+      "min": 1.0,
+      "q25": 3.0,
+      "median": 3.0,
+      "q75": 4.0,
+      "max": 5.0,
+      "skew": -0.22768840188548678
+    },
+    "score_texture": {
+      "count": 124,
+      "mean": 4.411290322580645,
+      "std": 0.7326541212393478,
+      "min": 2.0,
+      "q25": 4.0,
+      "median": 5.0,
+      "q75": 5.0,
+      "max": 5.0,
+      "skew": -1.0735363423993678
+    },
+    "score_health": {
+      "count": 124,
+      "mean": 3.661290322580645,
+      "std": 1.1886119305860943,
+      "min": 1.0,
+      "q25": 3.0,
+      "median": 4.0,
+      "q75": 5.0,
+      "max": 5.0,
+      "skew": -0.4064813342765025
+    }
+  },
+  "categorical": {
+    "awareness_tier": {
+      "Low": 78,
+      "High": 25,
+      "Mid": 21
+    },
+    "gender": {
+      "หญิง": 71,
+      "ชาย": 41,
+      "LGBTQ+": 12
+    },
+    "belief_reason": {
+      "no_response": 46,
+      "other": 28,
+      "skeptical": 14,
+      "sensory": 14,
+      "brand_image": 11,
+      "label_evidence": 9,
+      "experience": 2
+    },
+    "belief_reason_typed": {
+      "no_response": 46,
+      "believer_other": 15,
+      "disbeliever_other": 13,
+      "believer_sensory": 13,
+      "believer_brand_image": 11,
+      "disbeliever_skeptical": 11,
+      "believer_label_evidence": 7,
+      "believer_skeptical": 3,
+      "disbeliever_label_evidence": 2,
+      "disbeliever_sensory": 1,
+      "disbeliever_experience": 1,
+      "believer_experience": 1
+    }
+  }
+}
