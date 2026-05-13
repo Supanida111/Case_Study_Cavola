@@ -6,3 +6,4 @@ joblib
 plotly
 dash
 dash-bootstrap-components
+gunicorn
