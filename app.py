@@ -15,6 +15,7 @@ app = Dash(
     suppress_callback_exceptions=True,
     title="Calvora — ระบบวิเคราะห์การตลาดด้วย AI"
 )
+server = app.server
 
 # ============ Modern Navbar ============
 NAV = dbc.Navbar(
